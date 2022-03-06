@@ -1,0 +1,3 @@
+extrn string_to_number
+extrn number_to_string
+extrn lenght_string
