@@ -1,6 +1,8 @@
 # AsmLib 
-My first little lib in asm. I just wanna top up my masm knowless level and start learning FASM assembler. This is C-orintable lib.
+My first little lib in asm. I just wanna top up my masm knowless level and start learning FASM assembler. This is C-orintable lib. All function - analogs famos and classic clib like stdio.h , string.h , etc.
+
 Have same package with functions: 
+
 + fmt (input/output data handler)
   +  uint8_t c_input_char (void);
   +  uint64_t c_input_number(void);
