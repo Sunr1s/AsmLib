@@ -27,3 +27,13 @@ Have same package with functions:
   + uint64_t c_string_to_number(uint8_t * str);
   + void c_number_to_string(uint64_t num, uint8_t * buffer, uint8_t size);
   + uint64_t c_lenght_string(uint8_t * str);
+  
++ sys (system and file editor pack)
+  + uint64_t c_fcreate(uint8_t * filename, uint16_t permissions);
+  + void c_fdelete(uint8_t * filename, uint8_t mode);
+  + uint64_t c_fopen(uint8_t * filename, uint8_t mode);
+  + void c_fclose(uint64_t descriptor);
+  + void c_fwrite(uint64_t descriptor, uint8_t * buffer, uint64_t size);
+  + void c_fseek(uint64_t descriptor, uint8_t mode, uint64_t positioni);
+  + uint64_t c_time(void);
+  + void e_exit(void);
