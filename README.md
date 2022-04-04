@@ -14,7 +14,8 @@ Have same package with functions:
   +  void c_print_char(uint8_t ch);
   +  void c_print_string(uint8_t * str);
   +  void c_print_line(void);
-+ mth (simple math functions)
+  
++ mth (simple math pack)
   +  void c_srand(uint64_t num);
   +  uint64_t c_rand(void);
   +  void c_bubble_sort(uint8_t * buffer, uint64_t size);
@@ -22,3 +23,7 @@ Have same package with functions:
   +  uint64_t c_fibonacci(uint64_t num);
   +  uint64_t c_factorial(uint64_t num);
   
++ str (string helper pack)
+  + uint64_t c_string_to_number(uint8_t * str);
+  + void c_number_to_string(uint64_t num, uint8_t * buffer, uint8_t size);
+  + uint64_t c_lenght_string(uint8_t * str);
